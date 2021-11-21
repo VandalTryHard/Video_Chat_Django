@@ -4,5 +4,4 @@ from django.shortcuts import render
 
 def main_view(request):
     contex ={}
-
     return render(request, 'chat/main.html', context=contex)
