@@ -5,25 +5,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WebRTC Channels Django</title>
-    <link rel="stylesheet" type="text/scc" href="{% static 'css/main.css' %}"
+    <title>WebRTC Channels Django</title> 
+    <link rel="stylesheet" href="static/css/main.css">
 </head>
 <body>
-    <h3 id="label-username">USERNAME</h3>
+    <h3 id="label-username"  style="width: 300px; height: 25px; background:white;">USERNAME</h3>
     <div>
         <input id="username"><button id="btn-join">Join Room</button>
     </div>
 
-    <div class="main-grid-container">
+    <div class="main-grid-container";>
         <div id="video-container">
             <div><video id="local-video" style="float : left;" autoplay playsinline></video></div>
             <button id="btn-toggle-audio">Audio mute</button>
             <button id="btn-toggle-video">Video off</button>
         </div>
 
-        <div id="chat">
+        <div id="chat" style="width: 300px; height: 200px; position: absolute; top: 100px; left: 650px; border: 5px solid black; background:white;">
             <h3>CHAT</h3>
-            <div id="messages">
+            <div id="messages" style="width: 300px; height: 200px; top: 100px; left: 650px; background:white;">
                 <ul id="message-list"></ul>
             </div>
 

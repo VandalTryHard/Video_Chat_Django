@@ -116,7 +116,7 @@ var userMedia = navigator.mediaDevices.getUserMedia(constraints)
         audioTracks[0].enabled = true;
         videoTracks[0].enabled = true;
 
-        btnToggleAudio.addEventListener('clicl', () => {
+        btnToggleAudio.addEventListener('click', () => {
             audioTracks[0].enabled = !audioTracks[0].enabled;
 
             if(audioTracks[0].enabled){
@@ -128,7 +128,7 @@ var userMedia = navigator.mediaDevices.getUserMedia(constraints)
             btnToggleAudio.innerHTML = 'Audio Unmute';
         });
 
-        btnToggleVideo.addEventListener('clicl', () => {
+        btnToggleVideo.addEventListener('click', () => {
             videoTracks[0].enabled = !videoTracks[0].enabled;
 
             if(videoTracks[0].enabled){

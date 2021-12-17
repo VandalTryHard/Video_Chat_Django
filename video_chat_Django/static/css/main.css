@@ -1,15 +1,26 @@
+body {
+    background-image: url("milky-way-starry-sky-night-sky-star-956981.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .video-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 10fr);
     background-color: black;
 }
 
 .main-grid-container {
     display: grid;
-    grid-template-columns: 60% 20%;
+    grid-template-columns: 100px;
 }
 
 video {
-    border-radius: 20%;
+    border-radius: 25%;
     background: black;
 }
