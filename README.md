@@ -2,4 +2,5 @@
 Anonymous video chat in Python/Django framework 
 On development stage 
 
-![изображение](https://user-images.githubusercontent.com/81765186/142667974-5729e65e-43a4-4767-9a6f-ee41ec0b9b22.png)
+
+![background chat video style](https://user-images.githubusercontent.com/81765186/146573479-a44d9a36-8c30-404e-a2f9-610ae399ce6d.JPG)
